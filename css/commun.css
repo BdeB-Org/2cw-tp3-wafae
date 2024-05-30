@@ -163,3 +163,82 @@ padding-bottom: 0%;
   margin-top: -12%;
 }
   
+
+ .Case{
+    width: 458px;
+    height: 56px;
+    align-content: center;
+    border: 1px solid black;
+    margin: 0px;
+    margin-left: 55px;
+    margin-bottom: 32px;
+    font-size: 24px;
+  }
+  .labelFormulaire{
+    font-size: 32px;
+    margin-left: 55px;
+  }
+  .bouton-confirmer{
+    background-color: #000;
+    text-align: center;
+    font-size: 32px;
+    margin-right: 91px;
+    margin-left: 54px;
+    margin-top: 74px;
+    margin-bottom: 88px;
+    padding: 0em 0em 0em 0em;
+    width: 465px;
+    height: 56px;
+    font-family: Lalezar;
+    color: white;
+}
+#typo{
+  color: #000;
+  font-family: Lalezar;
+  font-size: 32px;
+  font-weight: 400px;
+  text-decoration: none;
+  
+}
+.retour-accueil{
+  font-family: lalezar;
+  display: flex;
+  width: 475px;
+  height: 83px;
+  justify-content: center;
+  align-items: center;
+  background: #DD2929;
+  position: absolute;
+  top: 1360px;
+  left: 36px;
+  margin-left: 9em;
+}
+.texte-début{
+margin: 23px 0em 39px 20px;
+padding: 0em 0em 0em 0em;
+width: 566px;
+height: 106px;
+color: #000000;
+}
+
+#création{
+ color: #000;
+ font-size: 64px;
+ font-weight: 400px;
+}
+
+.global{
+ font-family: Lalezar;
+  padding: 0em 0em 0em 1em;
+  background-color: white;
+  position: relative;
+  margin-left: 272px;
+  margin-right: 274px;
+  margin-top: 0px;
+  margin-bottom: 128px;
+  padding-bottom: 88px;
+  border: 9px solid #000;
+  background: #FFF;
+  width: 603px;
+  height: 889px;
+}
