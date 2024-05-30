@@ -79,3 +79,54 @@ VALUES (1,vxh51980210 , 2);
 SELECT * FROM client;
 SELECT * FROM categorie;
 SELECT * FROM produit;
+-- Activation de la table client pour accès REST
+BEGIN
+  ORDS.enable_object (
+    p_enabled      => TRUE,
+    p_schema       => 'VOTRE_SCHEMA', -- Remplacez par votre schéma
+    p_object       => 'CLIENT',
+    p_object_type  => 'TABLE',
+    p_object_alias => 'client'
+  );
+  COMMIT;
+END;
+/
+
+-- Activation de la table produit pour accès REST
+BEGIN
+  ORDS.enable_object (
+    p_enabled      => TRUE,
+    p_schema       => 'VOTRE_SCHEMA', -- Remplacez par votre schéma
+    p_object       => 'PRODUIT',
+    p_object_type  => 'TABLE',
+    p_object_alias => 'produit'
+  );
+  COMMIT;
+END;
+/
+
+-- Activation de la table categorie pour accès REST
+BEGIN
+  ORDS.enable_object (
+    p_enabled      => TRUE,
+    p_schema       => 'VOTRE_SCHEMA', -- Remplacez par votre schéma
+    p_object       => 'CATEGORIE',
+    p_object_type  => 'TABLE',
+    p_object_alias => 'categorie'
+  );
+  COMMIT;
+END;
+/
+
+-- Activation de la table achat pour accès REST
+BEGIN
+  ORDS.enable_object (
+    p_enabled      => TRUE,
+    p_schema       => 'VOTRE_SCHEMA', -- Remplacez par votre schéma
+    p_object       => 'ACHAT',
+    p_object_type  => 'TABLE',
+    p_object_alias => 'achat'
+  );
+  COMMIT;
+END;
+/
