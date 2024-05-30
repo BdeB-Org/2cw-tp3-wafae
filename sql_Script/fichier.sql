@@ -13,7 +13,7 @@ CREATE TABLE client (
 CREATE TABLE categorie (
     id_categorie   NUMBER NOT NULL,
     nom_categorie  VARCHAR2(100) NOT NULL,
-    description    VARCHAR2(255),
+    description    VARCHAR2(2000),
     CONSTRAINT categorie_pk PRIMARY KEY (id_categorie)
 );
 
@@ -79,11 +79,25 @@ VALUES (1,vxh51980210 , 2);
 SELECT * FROM client;
 SELECT * FROM categorie;
 SELECT * FROM produit;
+
+-- Ceci va creer un URI sous le URL qui pourra etre utilise pour y activer les tables en mode REST
+BEGIN
+  ORDS.enable_schema(
+    p_enabled             => TRUE,
+    p_schema              => 'RESTSCOTT',
+    p_url_mapping_type    => 'BASE_PATH',
+    p_url_mapping_pattern => 'hr2',
+    p_auto_rest_auth      => FALSE
+  );
+    
+  COMMIT;
+END;
+/
 -- Activation de la table client pour accès REST
 BEGIN
   ORDS.enable_object (
     p_enabled      => TRUE,
-    p_schema       => 'VOTRE_SCHEMA', -- Remplacez par votre schéma
+    p_schema       => 'RESTSCOTT', 
     p_object       => 'CLIENT',
     p_object_type  => 'TABLE',
     p_object_alias => 'client'
@@ -96,7 +110,7 @@ END;
 BEGIN
   ORDS.enable_object (
     p_enabled      => TRUE,
-    p_schema       => 'VOTRE_SCHEMA', -- Remplacez par votre schéma
+    p_schema       => 'RESTSCOTT',
     p_object       => 'PRODUIT',
     p_object_type  => 'TABLE',
     p_object_alias => 'produit'
@@ -109,7 +123,7 @@ END;
 BEGIN
   ORDS.enable_object (
     p_enabled      => TRUE,
-    p_schema       => 'VOTRE_SCHEMA', -- Remplacez par votre schéma
+    p_schema       => 'RESTSCOTT', 
     p_object       => 'CATEGORIE',
     p_object_type  => 'TABLE',
     p_object_alias => 'categorie'
@@ -122,7 +136,7 @@ END;
 BEGIN
   ORDS.enable_object (
     p_enabled      => TRUE,
-    p_schema       => 'VOTRE_SCHEMA', -- Remplacez par votre schéma
+    p_schema       => 'RESTSCOTT', 
     p_object       => 'ACHAT',
     p_object_type  => 'TABLE',
     p_object_alias => 'achat'
