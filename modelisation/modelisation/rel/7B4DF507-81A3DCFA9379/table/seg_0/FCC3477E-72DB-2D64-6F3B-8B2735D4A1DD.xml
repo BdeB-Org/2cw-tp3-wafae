@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC3477E-72DB-2D64-6F3B-8B2735D4A1DD" name="achat_fk_client">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="achat_id_achat" id="67D70219-5401-E90C-EB09-42E5F97A49F2">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D76A169-534F-C1FA-22C2-27DA5A889998" referredColumn="2EA7033B-6279-A65C-7060-64047C1D3605"/>
+</associations>
+</Column>
+<Column name="client_id_client" id="6BC324FA-F2E5-A412-2754-161F0487ED01">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12E6CA25-F2D9-920A-B735-D5B7E8B4E37E" referredColumn="F7FF5A1A-48EB-B6E4-CF8F-87EC98FB9169"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="965EA8E9-A575-5B0A-C40A-93E5838F66B1" name="achat_fk_client_PK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67D70219-5401-E90C-EB09-42E5F97A49F2"/>
+<colUsage columnID="6BC324FA-F2E5-A412-2754-161F0487ED01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="275AAF07-4A5E-71DA-4BAB-645A9FCB01FC" name="achat_fk_client_achat_FK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<generatorID>078C1DA8-8C1F-B590-CEA8-FE4329B8FAF1</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67D70219-5401-E90C-EB09-42E5F97A49F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F63DD90F-CED8-4828-109F-1FC5E1A60DC1" name="achat_fk_client_client_FK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<generatorID>078C1DA8-8C1F-B590-CEA8-FE4329B8FAF1</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BC324FA-F2E5-A412-2754-161F0487ED01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

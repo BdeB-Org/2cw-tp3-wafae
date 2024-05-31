@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="869783E7-21BC-12E9-662A-F68EDF5CC237" name="produit">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:21:12 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produit" id="8EAE5C56-C815-5B43-CBCF-8BE02D7D25E6">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:22:11 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_produit" id="3AB657F7-56E1-E3A7-3A78-021AF4FD5CA1">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:22:37 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix" id="D19495AB-3DA5-7572-B7DB-DC1DD8728FC3">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:27:50 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix_apres_reduction" id="63E40910-780B-0B51-64A5-532AAB6C5055">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:31:18 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categorie" id="B272C342-B5E2-2298-CA70-85D2541CA59E">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:31:50 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B34FAF5-CA9D-D738-AB83-9D37E52A5F10" name="PRODUIT PK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:22:34 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EAE5C56-C815-5B43-CBCF-8BE02D7D25E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

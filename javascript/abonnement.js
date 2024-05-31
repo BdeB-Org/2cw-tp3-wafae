@@ -1,3 +1,4 @@
+
 // https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
 
 //https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data

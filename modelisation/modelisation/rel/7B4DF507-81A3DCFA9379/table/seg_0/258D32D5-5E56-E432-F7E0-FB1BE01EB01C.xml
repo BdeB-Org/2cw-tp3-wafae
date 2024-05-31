@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="258D32D5-5E56-E432-F7E0-FB1BE01EB01C" name="categorie">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>13DC6558-B939-2063-F0E2-3D9EBE75389C</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categorie" id="8B24C2E0-7E4B-087B-30D9-D7EF67361AA0">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>E20AA7C2-E8F5-46E0-A7CB-6395C19ADC3B</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_categorie" id="E068DE0D-DFF8-6237-FE92-03032426A46B">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>FF632BD2-EFA0-1314-633F-FFBB6888E5F4</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="7BAB9E7B-441F-CFB0-CCA7-54C966C872C4">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<generatorID>CFCC491B-D750-AD55-0061-7329843482D2</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05D09718-F46E-B271-B222-D3EE9C48416F" name="CATEGORIE_PK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>49297BE3-2549-6A13-E813-460187FB6715</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B24C2E0-7E4B-087B-30D9-D7EF67361AA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

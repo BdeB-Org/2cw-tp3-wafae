@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="achat_produit" directorySegmentName="seg_0" id="D8ACF0D7-2105-ECE0-43C0-10D5F1D734D6">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:25:18 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>comporte</nameOnSource>
+<nameOnTarget>souhaite acheter</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3F975731-8858-BFA8-170B-873F98AC9135</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>869783E7-21BC-12E9-662A-F68EDF5CC237</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4244AD1A-3B83-A007-8239-6E8D7CDB5028" name="client">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:16:05 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_client" id="531FE524-3B51-EF6B-CE3E-771C13DED98E">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:17:05 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="16326421-02AB-B37D-3754-AA9D94D5484A">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:18:52 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenom" id="346985EC-EB1B-CA3E-C8D5-FFDEB1EA842B">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:20:00 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="courriel" id="2B5841F1-F7AB-3C54-1610-7D352122777C">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:20:33 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mot_de_passe" id="CC966DB5-693A-BFCF-4DE9-1C0B0EB87FC5">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:08:17 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF23622D-66C0-947D-A468-61474393CFB5" name="CLIENT PK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:17:18 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>531FE524-3B51-EF6B-CE3E-771C13DED98E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="achat_fk_client" directorySegmentName="seg_0" id="078C1DA8-8C1F-B590-CEA8-FE4329B8FAF1">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:21:57 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<engineerTo>
+<item key="7B4DF507-5C8F-8718-D83D-81A3DCFA9379" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>appartient à</nameOnSource>
+<nameOnTarget>achète</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3F975731-8858-BFA8-170B-873F98AC9135</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4244AD1A-3B83-A007-8239-6E8D7CDB5028</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
