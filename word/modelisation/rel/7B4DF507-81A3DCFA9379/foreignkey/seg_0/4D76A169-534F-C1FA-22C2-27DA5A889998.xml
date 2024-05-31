@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D76A169-534F-C1FA-22C2-27DA5A889998" containerWithKeyObject="FCC3477E-72DB-2D64-6F3B-8B2735D4A1DD" localFKIndex="275AAF07-4A5E-71DA-4BAB-645A9FCB01FC" name="achat_fk_client_achat_FK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<generatorID>078C1DA8-8C1F-B590-CEA8-FE4329B8FAF1</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<referredTableLongName>achat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22D8D4D1-4AA5-22B4-84E0-764078701891</referredTableID>
+<keyObject>467BF870-8158-43CD-BE77-AB95B2D063B9</keyObject>
+<referredKeyID>467BF870-8158-43CD-BE77-AB95B2D063B9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_achat</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

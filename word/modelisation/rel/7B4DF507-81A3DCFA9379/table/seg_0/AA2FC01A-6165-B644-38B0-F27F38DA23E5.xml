@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA2FC01A-6165-B644-38B0-F27F38DA23E5" name="achat_produit">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="achat_id_achat" id="8B94F1F1-E8FE-0766-34AD-6AA90B33A8E2">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A6AC907-8E87-6E14-F52F-00401B171207" referredColumn="2EA7033B-6279-A65C-7060-64047C1D3605"/>
+</associations>
+</Column>
+<Column name="produit_id_produit" id="552005B4-A7EF-71E7-B5CE-AC682AB61249">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="445DCF78-C5D2-0ADC-06EA-5A1EC6BA7F28" referredColumn="7DC19018-13A6-8140-B8BE-AAADCFA24776"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10FE5A4B-78C0-89C1-E554-B38C856FFAC5" name="achat_produit_PK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<ownerDesignName>modelisation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B94F1F1-E8FE-0766-34AD-6AA90B33A8E2"/>
+<colUsage columnID="552005B4-A7EF-71E7-B5CE-AC682AB61249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4200AE32-939B-713C-509C-A1CAF753D6F9" name="achat_produit_achat_FK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<generatorID>D8ACF0D7-2105-ECE0-43C0-10D5F1D734D6</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B94F1F1-E8FE-0766-34AD-6AA90B33A8E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA2C15EC-B6D9-8590-7ED4-D8DB3F2BF24E" name="achat_produit_produit_FK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<generatorID>D8ACF0D7-2105-ECE0-43C0-10D5F1D734D6</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="552005B4-A7EF-71E7-B5CE-AC682AB61249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

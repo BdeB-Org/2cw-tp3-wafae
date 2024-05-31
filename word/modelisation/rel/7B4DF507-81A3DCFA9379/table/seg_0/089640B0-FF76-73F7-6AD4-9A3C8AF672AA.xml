@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="089640B0-FF76-73F7-6AD4-9A3C8AF672AA" name="client">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>4244AD1A-3B83-A007-8239-6E8D7CDB5028</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_client" id="F7FF5A1A-48EB-B6E4-CF8F-87EC98FB9169">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>531FE524-3B51-EF6B-CE3E-771C13DED98E</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="203C91EE-8D6E-CF05-3142-ECCF1BE15CEF">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>16326421-02AB-B37D-3754-AA9D94D5484A</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom" id="48CDE661-5219-AE02-485F-449462B58B3E">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>346985EC-EB1B-CA3E-C8D5-FFDEB1EA842B</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="courriel" id="7C00B6CD-B19E-467B-1CD9-5AE70AB93F55">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>2B5841F1-F7AB-3C54-1610-7D352122777C</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mot_de_passe" id="489A0984-8564-2D61-821A-DD429E7F3D34">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 15:41:24 UTC</createdTime>
+<generatorID>CC966DB5-693A-BFCF-4DE9-1C0B0EB87FC5</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6A9D009-0CEF-7D1B-A4A5-ED172E3CA0B9" name="CLIENT_PK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>BF23622D-66C0-947D-A468-61474393CFB5</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7FF5A1A-48EB-B6E4-CF8F-87EC98FB9169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

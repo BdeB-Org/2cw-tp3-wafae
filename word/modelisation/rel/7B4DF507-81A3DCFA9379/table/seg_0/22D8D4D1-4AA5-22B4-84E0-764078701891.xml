@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22D8D4D1-4AA5-22B4-84E0-764078701891" name="achat">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>3F975731-8858-BFA8-170B-873F98AC9135</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_achat" id="2EA7033B-6279-A65C-7060-64047C1D3605">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>42154C54-1608-0770-C5B1-FB3A0B81B8B6</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_client" id="73395F39-9BFC-E854-F192-A74128D1CD1E">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>727AB00E-9CE6-130A-3672-90C2A1332976</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_produit" id="0E58C1F6-4850-7AD1-D6C9-79F2E2C54DDC">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>BD44F4F6-F8C6-1142-0AB0-379AA27ACA57</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="467BF870-8158-43CD-BE77-AB95B2D063B9" name="ACHAT_PK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>C40C5066-B7D0-8D9D-CCD6-56B043DE89A8</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EA7033B-6279-A65C-7060-64047C1D3605"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

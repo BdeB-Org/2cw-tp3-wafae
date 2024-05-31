@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF5B935C-4E42-5356-37BF-B4097F60269C" name="produit">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>869783E7-21BC-12E9-662A-F68EDF5CC237</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produit" id="7DC19018-13A6-8140-B8BE-AAADCFA24776">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>8EAE5C56-C815-5B43-CBCF-8BE02D7D25E6</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_produit" id="0DAE5460-8A31-9A0C-90F8-527242AAB5A8">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>3AB657F7-56E1-E3A7-3A78-021AF4FD5CA1</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prix" id="569DD7F8-35EA-3CB4-CC93-8B9EDFE69483">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>D19495AB-3DA5-7572-B7DB-DC1DD8728FC3</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prix_apres_reduction" id="AFB1BFD5-1305-040E-E1E7-0771F76FB968">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>63E40910-780B-0B51-64A5-532AAB6C5055</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_categorie" id="5CBDA189-1BDC-F8D9-6729-75FA4E838973">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>B272C342-B5E2-2298-CA70-85D2541CA59E</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94DDE9E2-666B-BACB-E33F-0942E0F78C12" name="PRODUIT_PK">
+<createdBy>Lena</createdBy>
+<createdTime>2024-05-31 03:50:56 UTC</createdTime>
+<generatorID>1B34FAF5-CA9D-D738-AB83-9D37E52A5F10</generatorID>
+<ownerDesignName>modelisation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DC19018-13A6-8140-B8BE-AAADCFA24776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
