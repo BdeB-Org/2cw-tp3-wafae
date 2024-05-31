@@ -1,5 +1,12 @@
 // https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
 
+//https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+
+//https://www.w3schools.com/js/js_json_stringify.asp
+
+
 
 
 
@@ -37,9 +44,32 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Veuillez entrer une adresse courriel valide (exemple@abcd.com).");
             return;
         }
+		 const formData = new FormData();
+        formData.append("nom", nom);
+        formData.append("prenom", prenom);
+        formData.append("courriel", courriel);
+        formData.append("motdepasse", motdepasse);
+        // ca depent peut etre le lien url c est pas correcte
+        fetch("http://localhost:8080/ords/hr2/client", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Erreur lors de l'envoi des données.");
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log("Réponse du serveur :", data);
+            alert("Formulaire soumis avec succès !");
+        })
+        .catch(error => {
+            console.error("Erreur :", error);
+            alert("Erreur!   Veuillez réessayer plus tard.");
+        });
 
       
-        alert("Formulaire soumis avec succès !");
-        formulaire.submit();
+       
     });
 });
