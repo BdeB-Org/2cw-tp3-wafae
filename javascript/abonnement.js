@@ -74,3 +74,17 @@ document.addEventListener("DOMContentLoaded", () => {
        
     });
 });
+
+function creerListe() {
+    let nbreRangee = window.prompt("Entrez le nom du nouveau produit désiré", "A");
+    let nbreColonne = window.prompt("Entrez le prix du produit désiré", 1);
+    const maListe = document.getElementById("maListe");
+  
+    for (let r = 0; r < parseInt(nbreRangee); r++) {
+      let rangeeInseree = maListe.insertRow(r);
+      for (let c = 0; c < parseInt(nbreColonne); c++) {
+        let cellule = rangeeInseree.insertCell(c);
+        cellule.innerHTML = `Rangée: ${r} Colonne: ${c}`;
+      }
+    }
+}
