@@ -11,3 +11,8 @@
             document.getElementById('produit1').style.display = 'none';
             document.getElementById('produit2').style.display = 'block';
         });
+		document.getElementById('description').addEventListener('click', function() {
+            document.getElementById('histoireImage').style.display = 'block';
+            document.getElementById('produit1').style.display = 'none';
+            document.getElementById('produit2').style.display = 'none';
+        });
