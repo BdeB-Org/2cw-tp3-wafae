@@ -242,3 +242,7 @@ color: #000000;
   width: 603px;
   height: 889px;
 }
+
+#histoire {
+  display: none;
+}
