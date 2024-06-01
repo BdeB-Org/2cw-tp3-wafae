@@ -10,3 +10,8 @@
             document.getElementById('produit3').style.display = 'none';
             document.getElementById('produit4').style.display = 'block';
         });
+		 document.getElementById('histoire').addEventListener('click', function() {
+            document.getElementById('histoireImage').style.display = 'block';
+            document.getElementById('produit3').style.display = 'none';
+            document.getElementById('produit4').style.display = 'none';
+        });
